@@ -1,6 +1,3 @@
-# Sincronizare automată prin VV-Bridge
-echo '--- STARTING VV-MANAGER DEPLOY ---'
-cat <<EOF > onyx-shine.html
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -39,8 +36,3 @@ cat <<EOF > onyx-shine.html
     </section>
 </body>
 </html>
-EOF
-git add onyx-shine.html
-git commit -m "VV-MANAGER: Deploy Onyx Shine Landing Page"
-git push origin main
-echo '--- DEPLOY SUCCESSFUL ---'
